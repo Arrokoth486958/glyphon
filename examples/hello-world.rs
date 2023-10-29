@@ -130,7 +130,7 @@ async fn run() {
                             resolve_target: None,
                             ops: Operations {
                                 load: LoadOp::Clear(wgpu::Color::BLACK),
-                                store: wgpu::StoreOp::Store,
+                                store: true,
                             },
                         })],
                         depth_stencil_attachment: None,
